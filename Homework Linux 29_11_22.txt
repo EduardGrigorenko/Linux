@@ -1,0 +1,33 @@
+TASK1
+
+uptime
+date
+for run in {1..10}
+do
+echo$run
+date
+
+done
+
+Mem:            965         327         231           5         406         475
+vendor_id       : GenuineIntel
+cpu family      : 6
+model           : 63
+model name      : Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz
+stepping        : 2
+microcode       : 0x46
+cpu MHz         : 2400.198
+cache size      : 30720
+clflush size    : 64
+cache_alignment : 64
+
+"Amazon Linux"
+You have mail in /var/spool/mail/ec2-user
+[ec2-user@ip-172-31-33-20 edward_grigorenko]$
+TASK2
+echo -e #!/bin/bash
+for run in {50..100}
+do
+echo $run
+touch txt_$run
+done
